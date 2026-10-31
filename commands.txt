@@ -1,0 +1,10 @@
+git --version
+
+uv python install 3.12
+
+mkdir meridian-ai
+cd meridian-ai
+uv init --python 3.12
+
+mkdir -p backend/{api,rag,agent,config,logger,exceptions,tests}
+touch backend/{api,rag,agent,config,logger,exceptions}/__init__.py
