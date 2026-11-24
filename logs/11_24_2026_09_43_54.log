@@ -1,0 +1,2 @@
+{"path": "/Users/ashwath/Documents/langchain-Project/meridian-ai/frontend/dist", "timestamp": "2026-11-24T04:13:54.470866Z", "level": "warning", "severity": "WARNING", "event": "Frontend dist not found \u2014 frontend will not be served."}
+{"mode": "local", "llm": "gemini-3.5-flash-lite", "timestamp": "2026-11-24T04:13:54.471189Z", "level": "info", "severity": "INFO", "event": "Meridian AI starting"}

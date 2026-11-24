@@ -1,0 +1,15 @@
+{"location": "/Users/ashwath/Documents/langchain-Project/meridian-ai/.meridian/uploads", "timestamp": "2026-11-01T11:50:51.042288Z", "level": "info", "severity": "INFO", "event": "Indexing stored documents"}
+{"source": "local://aldermoor_accounting_policy_ifrs.pdf", "chunks": 1, "timestamp": "2026-11-01T11:50:51.076324Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+{"path": "/Users/ashwath/Documents/langchain-Project/meridian-ai/.meridian/chroma", "timestamp": "2026-11-01T11:50:51.188252Z", "level": "info", "severity": "INFO", "event": "Using local Chroma vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"source": "local://aldermoor_accounting_policy_ifrs.pdf", "pages": 1, "chunks": 1, "timestamp": "2026-11-01T11:50:52.172534Z", "level": "info", "severity": "INFO", "event": "Ingested stored PDF"}
+{"source": "local://aldermoor_annual_report_fy2024.pdf", "chunks": 1, "timestamp": "2026-11-01T11:50:52.176425Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"source": "local://aldermoor_annual_report_fy2024.pdf", "pages": 1, "chunks": 1, "timestamp": "2026-11-01T11:50:52.889456Z", "level": "info", "severity": "INFO", "event": "Ingested stored PDF"}
+{"source": "local://aldermoor_procurement_policy.pdf", "chunks": 1, "timestamp": "2026-11-01T11:50:52.892903Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"source": "local://aldermoor_procurement_policy.pdf", "pages": 1, "chunks": 1, "timestamp": "2026-11-01T11:50:53.811639Z", "level": "info", "severity": "INFO", "event": "Ingested stored PDF"}
+{"source": "local://eu_tariff_schedule_excerpt.pdf", "chunks": 1, "timestamp": "2026-11-01T11:50:53.814591Z", "level": "info", "severity": "INFO", "event": "Embedding chunks and adding to vector store"}
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+{"source": "local://eu_tariff_schedule_excerpt.pdf", "pages": 1, "chunks": 1, "timestamp": "2026-11-01T11:50:54.525701Z", "level": "info", "severity": "INFO", "event": "Ingested stored PDF"}
+{"files": 4, "pages": 4, "chunks": 4, "timestamp": "2026-11-01T11:50:54.525924Z", "level": "info", "severity": "INFO", "event": "Ingestion complete"}
